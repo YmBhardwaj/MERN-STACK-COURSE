@@ -1,0 +1,39 @@
+------------ terminal commands ------------
+
+pwd : print current directory
+ls : for list of files
+ls -l : give all details of directory when it last modified
+ls -t dirName: give all details of subDirs
+ls -la dirName: give details of hidden files
+ls -lr dirName: give list of files in reverse order of modified
+ls -s dirName: list the files by size
+ls *.json: give list of all json files
+ls zoo*: give list of all files present with zoo
+ls ..: give list of all the files/dir present in parent dir
+cat filename : show content of file 
+touch filename : create new file
+cat >> filename : append data in file
+mkdir dirName : create new directory
+mkdir file && cd filename : create and move to new file
+mkdir -p dir/newdir : create directory recersively
+mv filename newlocation : move file from one place to one place
+mv filename newNameOfFile: renmae file
+cp filename locationTobeCopied : to copy file
+rm : remove file
+rm -r foldername: remove complete foldername
+chmod -R : to chnage permissions for perticuler folder
+ chmod have some value '+' to add permissions, '-' to remove permissions, r for read permissions, w for write permissions,
+ and x for exicute permissions, u for user, g for group and o for other 
+ echo : use to print something on the terminal 
+ echo $PATH(System variable): to get details of perticuler system variable
+ head, tails: use to get details from head and last row of file
+ head -20 : give only top 20 lines of filename
+ command1 | command2 : two commands run at same time
+ wc filename : give word count of file
+ grep "word" : give all the accorance if word
+ vi filename : do chnages in file 
+ history: give all the history of commands run
+ 
+
+
+

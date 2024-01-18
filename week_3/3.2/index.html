@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name = "viewport" content = "width=device-width">
+    <title> html page</title>
+    <!-- <link href="style.css" rel ="stylesheet" type ="text/css"/> -->
+</head>
+
+<body>
+    <script>
+        // function getAnimalData(){
+        //     // alert("i am here")
+        //     fetch("https://mocki.io/v1/d4867d8b-b5d5-4a48-a4ab-79131b5809b8")
+        //     .then(function(response){
+        //         response.json().then(function(finalData){
+        //             console.log(finalData);
+        //         })
+        //     })
+        // }
+      async  function getAnimalData(){
+            // alert("i am here")
+           const response = await fetch("https://mocki.io/v1/d4867d8b-b5d5-4a48-a4ab-79131b5809b8");
+           const finalData = await response.json();
+           console.log(finalData);  
+        }
+    </script>
+    <button onclick="getAnimalData()">Get Animel Data </button>
+</body>
+</html>

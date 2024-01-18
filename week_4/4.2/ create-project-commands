@@ -1,0 +1,7 @@
+1.) Go to your terminal and navigate to the folder in which you have to create project.
+2.) Write the command "npm create vit@latest"
+3.) give the project name
+4.) Now select the react
+5.)open folder in vs code
+6.) run npm install
+7.) to run project "npm run dev"
